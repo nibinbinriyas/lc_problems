@@ -2,6 +2,7 @@ from src.singleNumber import singleNumber
 from src.lengthOfLastWord import lengthOfLastWord
 from src.isPalindrome import isPalindrome
 from src.plusOne import plusOne
+from src.trailingZeroes import trailingZeroes
 
 def test_singlNumber():
     assert singleNumber([2,2,1]) == 1
@@ -15,3 +16,5 @@ def test_isPalindrome():
 def test_plusOne():
     assert plusOne([1,2,3]) == [1,2,4]
     
+def test_trailingZeroes():
+    assert trailingZeroes(5) == 1
