@@ -4,6 +4,7 @@ from src.isPalindrome import isPalindrome
 from src.plusOne import plusOne
 from src.trailingZeroes import trailingZeroes
 from src.majorityElement import majorityElement
+from src.isAnagram import isAnagram
 
 def test_singlNumber():
     assert singleNumber([2,2,1]) == 1
@@ -22,3 +23,6 @@ def test_trailingZeroes():
 
 def test_majorityElement():
     assert majorityElement([2,2,1,1,1,2,2]) == 2
+
+def test_isAnagram():
+    assert isAnagram("anagram","nagaram") == True
