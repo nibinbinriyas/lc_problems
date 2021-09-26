@@ -5,6 +5,7 @@ from src.plusOne import plusOne
 from src.trailingZeroes import trailingZeroes
 from src.majorityElement import majorityElement
 from src.isAnagram import isAnagram
+from src.hammingWeight import hammingWeight
 
 def test_singlNumber():
     assert singleNumber([2,2,1]) == 1
@@ -26,3 +27,6 @@ def test_majorityElement():
 
 def test_isAnagram():
     assert isAnagram("anagram","nagaram") == True
+
+def test_hammingWeight():
+    assert hammingWeight(11) == 3
