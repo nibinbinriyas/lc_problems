@@ -7,6 +7,7 @@ from src.majorityElement import majorityElement
 from src.isAnagram import isAnagram
 from src.hammingWeight import hammingWeight
 from src.isIsomorphic import isIsomorphic
+from src.reverseString import reverseString
 
 def test_singlNumber():
     assert singleNumber([2,2,1]) == 1
@@ -34,3 +35,6 @@ def test_hammingWeight():
 
 def test_isIsomorphic():
     assert isIsomorphic("egg","add") == True
+
+def test_reverseString():
+    assert reverseString(["h","e","l","l","o"]) == ['o', 'l', 'l', 'e', 'h']
