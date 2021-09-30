@@ -8,6 +8,7 @@ from src.isAnagram import isAnagram
 from src.hammingWeight import hammingWeight
 from src.isIsomorphic import isIsomorphic
 from src.reverseString import reverseString
+from src.isPowerOfFour import isPowerOfFour
 
 def test_singlNumber():
     assert singleNumber([2,2,1]) == 1
@@ -38,3 +39,6 @@ def test_isIsomorphic():
 
 def test_reverseString():
     assert reverseString(["h","e","l","l","o"]) == ['o', 'l', 'l', 'e', 'h']
+
+def test_isPowerOfFour():
+    assert isPowerOfFour(16) == True
